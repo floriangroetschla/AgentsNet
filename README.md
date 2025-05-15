@@ -50,3 +50,10 @@ We have a simple chat tool to read transcripts from completed runs. Simply run
 python chat_tool.py --file [FILE]
 ```
 where `[FILE]` is a results file produced by `main.py`. Providing `--agents agent1 agent2` will print the chat between agent1 and agent2. Only providing `--agents agent1` will print the transcript of agent1.
+
+## Dataset
+
+All graph instances used in our benchmark are publicly available on the Hugging Face Hub: [https://huggingface.co/datasets/disco-eth/AgentsNet](https://huggingface.co/datasets/disco-eth/AgentsNet)
+
+The dataset consists of synthetic graphs generated using various random graph models. It serves as the input for all experiments in the benchmark.
+
