@@ -1,6 +1,11 @@
 # AgentsNet
 
-Code for our submission.
+[![arXiv](https://img.shields.io/badge/arXiv-2507.08616-b31b1b.svg)](https://arxiv.org/abs/2507.08616)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://github.com/ashleve/lightning-hydra-template#license)
+
+This is the code for our preprint *AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs*. We benchmark networks of LLM agents on five fundamental problems from distributed computing to assess their collaborative reasoning capabilities!
+
+Make sure to also check out our blog post ([https://agentsnet.graphben.ch](https://agentsnet.graphben.ch)) with an interactive demo!
 
 ## Installation
 
@@ -56,4 +61,3 @@ where `[FILE]` is a results file produced by `main.py`. Providing `--agents agen
 All graph instances used in our benchmark are publicly available on the Hugging Face Hub: [https://huggingface.co/datasets/disco-eth/AgentsNet](https://huggingface.co/datasets/disco-eth/AgentsNet)
 
 The dataset consists of synthetic graphs generated using various random graph models. It serves as the input for all experiments in the benchmark.
-
