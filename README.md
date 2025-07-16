@@ -62,3 +62,17 @@ where `[FILE]` is a results file produced by `main.py`. Providing `--agents agen
 All graph instances used in our benchmark are publicly available on the Hugging Face Hub: [https://huggingface.co/datasets/disco-eth/AgentsNet](https://huggingface.co/datasets/disco-eth/AgentsNet)
 
 The dataset consists of synthetic graphs generated using various random graph models. It serves as the input for all experiments in the benchmark.
+
+## Citation
+
+```bibtex
+@misc{grötschla2025agentsnetcoordinationcollaborativereasoning,
+      title={AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs}, 
+      author={Florian Grötschla and Luis Müller and Jan Tönshoff and Mikhail Galkin and Bryan Perozzi},
+      year={2025},
+      eprint={2507.08616},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2507.08616}, 
+}
+```
