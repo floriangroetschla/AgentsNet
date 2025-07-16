@@ -1,3 +1,4 @@
+![network of agents in AgentsNet together with a chat window](header.png)
 # AgentsNet
 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.08616-b31b1b.svg)](https://arxiv.org/abs/2507.08616)
